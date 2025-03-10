@@ -1,0 +1,10 @@
+my_list = [2, 4, 5, 8, 9]
+
+def check_for_five(my_list):
+    if 5 in my_list:
+        print("The value 5 is in the list.")
+    else:
+        print("The value 5 is not in the list.")
+
+        
+check_for_five(my_list)
