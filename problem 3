@@ -1,0 +1,11 @@
+def check_sum( x, y):
+    sum = x + y
+    if sum >10:
+        print("The sum is greater than 10.")
+    elif sum < 10:
+        print("The sum is less than 10.")
+    else:
+        print("The sum is equal to 10.")
+
+        
+check_sum(x, y)
